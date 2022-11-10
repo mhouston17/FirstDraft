@@ -1,0 +1,166 @@
+
+.welcome {
+    padding-bottom: 50px;
+}
+
+.left {
+    background-color: burlywood;
+    height: 788px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 45px;
+    padding-left: 20px;
+    box-shadow: 5px 3px 3px 0px rgba(135, 139, 139, 0.75);
+ }
+
+ a {
+    text-decoration: none;
+    color:rgba(97, 42, 10, 0.75)
+ }
+
+ a:hover {
+    font-weight: 20px;
+    color: rgb(47, 213, 235);
+ }
+
+ .search {
+    height: 30px;
+    width: 185px;
+    margin-bottom: 50px;   
+}
+ .middle {
+    background-color: bisque;
+    height: 788px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 45px;
+    padding-left: 20px;
+    box-shadow: 5px 3px 3px 0px rgba(135, 139, 139, 0.75);
+ }
+ 
+ .menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+ }
+
+ .compose {
+    display: flex;
+    align-items: flex-end;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 3px;
+ }
+
+.compose:hover {
+    background-color: rgb(39, 223, 223);
+    border: 1px solid rgb(48, 222, 235);
+}
+.middle.email-box {
+    
+    height: 65px;
+    width: 295px;
+    box-shadow: 3px 3px 3px 0px rgba(78, 76, 80, 0.75);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    font-size: 14px;
+    border: 1px solid whitesmoke;
+    margin:10px 10px 10px 10px;
+   }
+
+.email-box:hover {
+    box-shadow: 2px 2px 2px 1px rgba(59, 63, 63, 0.575);
+}
+
+.right *{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+  }
+
+input.replybox{
+    width: 650px;
+    height: 250px;
+    margin-top: 25px;
+}
+
+button.reply { 
+    margin-top: 50px;
+}
+ 
+button.reply:hover {
+    background-color: aqua;
+}
+form > input > button {
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.compose2 {
+    margin-bottom: 25px;
+    border: 1px solid white;
+    width: 150px;
+}
+
+.compose:hover {
+    background-color: aqua;
+}
+
+
+
+
+  
+@media all and (max-width: 450px) {     
+    .left{
+        display: none;  
+    }  
+    .email-box {
+        width: 150px;
+    }
+ }
+
+ @media all and (max-width: 991px) {     
+    .left{
+        display: none;  
+    }  
+  
+ }
+
+ @media all and (min-width: 992px) {     
+    .compose2{
+        display: none;  
+    }  
+  
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+  
+
+  
+
+  
+
